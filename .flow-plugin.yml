@@ -1,5 +1,5 @@
 name: dingtalk_message
-version: 0.0.1
+version: 0.0.2
 language:
 description: Dingtalk message sender
 tags:
@@ -16,7 +16,7 @@ inputs:
   - name: FLOW_DINGTALK_MESSAGE_URL
     editable: true
 
-  - name: FLOW_DINGTALK_MESSAGE_JSON
+  - name: FLOW_DINGTALK_MESSAGE
     editable: true
 
 outputs:

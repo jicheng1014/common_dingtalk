@@ -4,7 +4,7 @@
 #
 #   Variables used:
 #     $FLOW_DINGTALK_MESSAGE_URL
-#     $FLOW_DINGTALK_MESSAGE_JSON
+#     $FLOW_DINGTALK_MESSAGE
 #
 #   Outputs:
 #
@@ -17,6 +17,7 @@ curl -sSL $FLOW_DINGTALK_MESSAGE_URL \
   -H 'Accept: */*' \
   -H 'Cache-Control: no-cache' \
   -H 'Connection: keep-alive' \
-  -d "$FLOW_DINGTALK_MESSAGE_JSON"
+  -d "{\"text\":{\"content\":\"${FLOW_DINGTALK_MESSAGE}\"},\"msgtype\":\"text\"}"
+
 
 flow_result $?
