@@ -9,8 +9,6 @@
 #   Outputs:
 #
 # ************************************************************
-
-set +e
 curl -sSL $FLOW_DINGTALK_MESSAGE_URL \
   -H 'Pragma: no-cache' \
   -H 'Content-Type: application/json;' \
