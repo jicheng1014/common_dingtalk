@@ -21,6 +21,7 @@ inputs:
     
   - name: FLOW_TEST_INPUT
     category: "select"
+    editable: true
     default: "a"
     options:
     - a=a
