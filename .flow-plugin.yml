@@ -18,7 +18,13 @@ inputs:
 
   - name: FLOW_DINGTALK_MESSAGE
     editable: true
-
+    
+  - name: FLOW_TEST_INPUT
+    category: select
+    default: "a"
+    options:
+    - a=a
+    - b=b
 outputs:
 
 script_path: ./run.sh
