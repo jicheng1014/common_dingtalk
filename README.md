@@ -7,7 +7,7 @@ dingtalk message sender
 * `FLOW_DINGTALK_MESSAGE` - 钉钉的消息，消息里若有双引号，请用`\`转义
 
 
-## EXAMPLE
+## EXAMPLE 
 
 ```yml
 steps:
